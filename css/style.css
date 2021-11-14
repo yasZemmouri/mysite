@@ -2,7 +2,7 @@
 #F5F5F5
 #333*/
 
-/*===== Reset =-====*/
+/*===== Reset =-V ====*/
 * {
   margin: 0;
   border: 0;
@@ -96,7 +96,7 @@ section {
   left: 0;
   height: 100%;
   background-color: white;
-  width: 550px;
+  width: 600px;
   max-width: 100%;
 }
 
