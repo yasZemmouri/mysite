@@ -46,7 +46,7 @@ header {
 }
 header .container {
   height: 100%; /*because all childs are positioned*/
-  position: relative; /*because all childs are positioned*/
+  position: relative; /*because childs are positioned*/
 }
 
 header nav {
@@ -256,6 +256,9 @@ figure {
 iframe {
   width: 310px;
   height: auto;
+}
+figcaption {
+  text-transform: capitalize;
 }
 .smokebg {
   background-color: #f5f5f5;
