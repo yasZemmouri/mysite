@@ -209,7 +209,7 @@ textarea:focus {
   margin: 5px 0;
   background-color: transparent;
   color: white;
-  transition: all ease-out 0.4s;
+  transition: all ease-out 0.1s;
   position: relative;
   overflow: hidden;
   font-size: 1.2em;
@@ -218,12 +218,14 @@ textarea:focus {
 .send-btn:hover,
 .send-btn:focus {
   background-color: white;
-  color: black;
+  color: #006599;
   cursor: pointer;
 }
 .send-btn:active {
-  color: darkgrey;
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
 }
+/* _____________________ ABOUT____________________________ */
 
 table {
   border-collapse: collapse;
@@ -248,12 +250,20 @@ textarea {
 }
 
 figure {
-  display: inline-block;
-  margin-bottom: 15px;
-}
-figcaption {
+  margin: 15px auto;
   text-align: center;
+}
+iframe {
+  width: 310px;
+  height: auto;
 }
 .smokebg {
   background-color: #f5f5f5;
+}
+
+.animes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
 }
